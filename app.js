@@ -12,4 +12,8 @@ app.get("/", function(req, res){
   res.render("home", {saludo: "hola diego achury"});
 })
 
+app.get("/:nombre", function(req, res){
+  res.render("home", {nombre: req.params.nombre});
+});
+
 app.listen(8000);
