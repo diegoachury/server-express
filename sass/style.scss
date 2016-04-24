@@ -1,0 +1,15 @@
+$color: orange;
+
+body {
+  background-color: $color;
+  padding: 20px;
+  margin: 0 auto;
+}
+.bloque{
+  background: $color;
+}
+p{
+  color: red;
+  font-weight: bold;
+  font-size: 2rem;
+}

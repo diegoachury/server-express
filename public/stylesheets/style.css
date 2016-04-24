@@ -1,0 +1,12 @@
+body {
+  background-color: orange;
+  padding: 20px;
+  margin: 0 auto; }
+
+.bloque {
+  background: orange; }
+
+p {
+  color: red;
+  font-weight: bold;
+  font-size: 2rem; }
